@@ -1,0 +1,179 @@
+
+  {
+  "featured": [
+   {
+  "id": "smart-notes-api",
+  "name": "Smart Notes API",
+  "description": "AI-powered notes management REST API with JWT authentication, Spring AI integration, PDF processing and secure role-based access.",
+  "longDescription": "A production-ready backend application built with Java 21 and Spring Boot that enables users to securely manage notes with JWT authentication, AI-powered note generation, PDF upload and summarization, advanced search, pagination, sorting and complete REST API documentation using Swagger OpenAPI.",
+  "features": [
+    "JWT Authentication & Refresh Tokens",
+    "Spring AI Note & Title Generation",
+    "AI-powered PDF Summarization",
+    "PDF Upload & Download Support",
+    "Search, Pagination & Sorting",
+    "Spring Security",
+    "Swagger OpenAPI Documentation",
+    "PostgreSQL (Neon) Database",
+    "Global Exception Handling",
+    "Bean Validation"
+  ],
+  "tech": [
+    "Java 21",
+    "Spring Boot",
+    "Spring Security",
+    "Spring AI",
+    "PostgreSQL",
+    "JWT"
+  ],
+  "image": "/assets/projects/smart-notes-api.png",
+  "github": "https://github.com/jeevan-kaware/smart-notes-api",
+  "demo": "https://smart-notes-api-production.up.railway.app/swagger-ui/index.html#/"
+},
+    {
+  "id": "ecommerce-api",
+  "name": "E-Commerce API",
+  "description": "Production-ready e-commerce REST API with JWT authentication, Spring AI shopping assistant, Cloudinary image uploads and secure role-based access.",
+
+  "longDescription": "A production-ready backend application built with Java 21 and Spring Boot that powers a complete e-commerce platform. It includes secure JWT authentication, role-based authorization, product and category management, shopping cart, wishlist, order management, AI-powered shopping assistant, Cloudinary image storage, and interactive REST API documentation using Swagger OpenAPI. The application is deployed on Railway with PostgreSQL for persistent data storage.",
+
+  "features": [
+    "JWT Authentication & Refresh Tokens",
+    "Role-Based Access Control (Admin & User)",
+    "Product & Category Management",
+    "Shopping Cart & Wishlist",
+    "Order Management System",
+    "Spring AI Shopping Assistant",
+    "Cloudinary Image Upload",
+    "Swagger OpenAPI Documentation",
+    "Railway Deployment",
+    "PostgreSQL Database"
+  ],
+
+  "tech": [
+    "Java 21",
+    "Spring Boot",
+    "Spring Security",
+    "Spring AI",
+    "PostgreSQL",
+    "Cloudinary"
+  ],
+
+  "image": "/assets/projects/ecommerce-api.png",
+
+  "github": "https://github.com/jeevan-kaware/springboot-ecommerce-api",
+
+  "demo": "https://springboot-ecommerce-api-production-0832.up.railway.app/swagger-ui/index.html"
+},
+    {
+  "id": "task-flow-api",
+
+  "name": "Task Flow API",
+
+  "description": "Production-ready task management REST API with JWT authentication, Google OAuth2, project & task management, email notifications and secure role-based access.",
+
+  "longDescription": "A production-ready backend application built with Java 21 and Spring Boot for managing projects, tasks and team collaboration. It features secure JWT authentication, Google OAuth2 login, role-based authorization, project and task management, comment system, automatic email notifications, pagination, search, sorting and complete REST API documentation with Swagger OpenAPI. The application is deployed on Railway using Neon PostgreSQL.",
+
+  "features": [
+    "JWT Authentication & Refresh Tokens",
+    "Google OAuth2 Login",
+    "Role-Based Access Control (Admin & User)",
+    "Project & Task Management",
+    "Task Assignment Email Notifications",
+    "Comment Management",
+    "Search, Pagination & Sorting",
+    "Swagger OpenAPI Documentation",
+    "Railway Deployment",
+    "PostgreSQL (Neon) Database"
+  ],
+
+  "tech": [
+    "Java 21",
+    "Spring Boot",
+    "Spring Security",
+    "OAuth2",
+    "PostgreSQL",
+    "Spring Mail"
+  ],
+
+  "image": "/assets/projects/task-flow-api.png",
+
+  "github": "https://github.com/jeevan-kaware/task-flow-api",
+
+  "demo": "https://task-flow-api-production-9465.up.railway.app/swagger-ui/index.html"
+}
+  ],
+  "frontend": [
+  {
+    "id": "ai-model-comparison",
+    "name": "AI Model Comparison",
+
+    "description": "Full-stack AI application that compares responses from multiple Large Language Models using Spring AI, React and Vite.",
+
+    "longDescription": "An AI-powered application built with Java 21, Spring Boot, Spring AI, React and Vite that allows users to compare responses from multiple Large Language Models on a single screen. It integrates Google Gemini and local Ollama models, enabling side-by-side response comparison through a clean and responsive user interface with REST API communication.",
+
+    "features": [
+      "Multi-Model AI Comparison",
+      "Google Gemini Integration",
+      "Ollama Local LLM Support",
+      "Gemma 2 Model Integration",
+      "Spring AI Framework",
+      "REST API Communication",
+      "Responsive React UI",
+      "Prompt-Based Comparison",
+      "Modern Vite Frontend",
+      "Clean Layered Architecture"
+    ],
+
+    "tech": [
+      "Java 21",
+      "Spring Boot",
+      "Spring AI",
+      "React",
+      "Vite",
+      "Google Gemini"
+    ],
+
+    "image": "/assets/projects/ai-model-comparison.png",
+
+    "github": "https://github.com/jeevan-kaware/AI-Model-Comparison",
+
+    "demo": "https://github.com/jeevan-kaware/AI-Model-Comparison"
+  },
+
+  {
+    "id": "world-tour-website",
+
+    "name": "World Tour Website",
+
+    "description": "Responsive travel and tourism website built using HTML, CSS and JavaScript with destination pages and travel blogs.",
+
+    "longDescription": "A responsive frontend travel website developed using HTML5, CSS3 and JavaScript. The application allows users to explore famous destinations, read travel blogs, browse tourism information and navigate through multiple destination pages. It includes login and registration UI screens while demonstrating responsive design and interactive frontend development.",
+
+    "features": [
+      "Responsive Design",
+      "Travel Destination Pages",
+      "Travel Blog Section",
+      "Interactive Navigation",
+      "Login & Registration UI",
+      "Mobile Friendly Layout",
+      "Clean User Interface",
+      "Pure HTML, CSS & JavaScript",
+      "Multiple Travel Articles",
+      "Organized Project Structure"
+    ],
+
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+
+    "image": "/assets/projects/world-tour-website.png",
+
+    "github": "https://github.com/jeevan-kaware/world-tour-website",
+
+    "demo": "https://jeevan-kaware.github.io/world-tour-website/"
+  }
+]
+}

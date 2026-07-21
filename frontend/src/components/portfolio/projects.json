@@ -1,0 +1,59 @@
+{
+  "featured": [
+    {
+      "id": "smart-notes-api",
+      "name": "Smart Notes API",
+      "description": "Production-grade note-taking backend with JWT auth, full-text search, tagging, and Spring AI powered summarization.",
+      "longDescription": "A comprehensive notes platform built with Spring Boot 3.5, featuring role-based access control, refresh-token rotation, PostgreSQL full-text search, and an AI summarization endpoint powered by Spring AI + OpenAI.",
+      "features": ["JWT + Refresh tokens", "Full-text search", "AI summarization", "Rate limiting", "Swagger docs"],
+      "tech": ["Java 21", "Spring Boot", "Spring Security", "PostgreSQL", "Spring AI"],
+      "image": "",
+      "github": "https://github.com/jeevankaware/smart-notes-api",
+      "demo": "https://smart-notes.demo.dev"
+    },
+    {
+      "id": "ecommerce-api",
+      "name": "E-Commerce API",
+      "description": "Scalable multi-vendor commerce backend with cart, checkout, payments and event-driven order processing.",
+      "longDescription": "Modular monolith with clean-architecture boundaries, Stripe integration, Kafka-based order events, Redis-backed cart sessions, and comprehensive audit logging.",
+      "features": ["Stripe payments", "Kafka events", "Redis cart", "Admin dashboard", "Inventory sync"],
+      "tech": ["Java 21", "Spring Boot", "Kafka", "Redis", "PostgreSQL", "Stripe"],
+      "image": "",
+      "github": "https://github.com/jeevankaware/ecommerce-api",
+      "demo": "https://ecom.demo.dev"
+    },
+    {
+      "id": "task-flow-api",
+      "name": "Task Flow API",
+      "description": "Collaborative task management platform with realtime updates, team workspaces and role-based permissions.",
+      "longDescription": "Kanban-style task engine supporting workspaces, boards, WebSocket realtime sync, activity streams, and granular RBAC across organizations.",
+      "features": ["WebSocket realtime", "RBAC", "Activity streams", "Webhooks", "GraphQL layer"],
+      "tech": ["Java 21", "Spring Boot", "WebSocket", "PostgreSQL", "Docker"],
+      "image": "",
+      "github": "https://github.com/jeevankaware/task-flow-api",
+      "demo": "https://taskflow.demo.dev"
+    }
+  ],
+  "frontend": [
+    {
+      "id": "portfolio-ui",
+      "name": "Premium Portfolio UI",
+      "description": "This portfolio site — React 19, Tailwind CSS, Framer Motion. Fully responsive premium dark UI.",
+      "features": ["Framer Motion", "Glassmorphism", "AI chat", "Fully responsive"],
+      "tech": ["React", "Tailwind CSS", "Framer Motion", "TypeScript"],
+      "image": "",
+      "github": "https://github.com/jeevankaware/portfolio",
+      "demo": "#"
+    },
+    {
+      "id": "admin-console",
+      "name": "Admin Console",
+      "description": "Companion admin dashboard for the Smart Portfolio API — manage content, projects and messages.",
+      "features": ["shadcn/ui", "Charts", "Auth flow", "Dark mode"],
+      "tech": ["React", "TypeScript", "shadcn/ui", "Recharts"],
+      "image": "",
+      "github": "https://github.com/jeevankaware/admin-console",
+      "demo": "https://admin.demo.dev"
+    }
+  ]
+}

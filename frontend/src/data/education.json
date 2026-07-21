@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "G. H. Raisoni College, Amravati",
+      "period": "2024 — Present (Expected Graduation: 2027)",
+      "description": "Currently pursuing a Bachelor of Computer Applications with a focus on Java, Spring Boot, REST APIs, PostgreSQL, Data Structures & Algorithms, and modern backend development.",
+      "grade": "Current CGPA: 8.90 / 10"
+    },
+    {
+      "degree": "Higher Secondary (HSC)",
+      "institution": "Maharashtra State Board",
+      "period": "2022 — 2024",
+      "description": "Completed Higher Secondary education with a focus on academic fundamentals before pursuing a career in software development.",
+      "grade": "Completed"
+    }
+  ]
+}

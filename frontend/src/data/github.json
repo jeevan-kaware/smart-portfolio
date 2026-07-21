@@ -1,0 +1,36 @@
+{
+  "username": "jeevankaware",
+  "stats": {
+       "repositories": 15,
+    "stars": 32,
+    "followers": 12,
+    "contributions": 580
+  },
+  "languages": [
+    {
+      "name": "Java",
+      "percent": 62,
+      "color": "#f89820"
+    },
+    {
+      "name": "Spring Boot",
+      "percent": 52,
+      "color": "#6DB33F"
+    },
+    {
+      "name": "PostgreSQL",
+      "percent": 49,
+      "color": "#336791"
+    },
+    {
+      "name": "JavaScript",
+      "percent": 42,
+      "color": "#F7DF1E"
+    },
+    {
+      "name": "React",
+      "percent": 30,
+      "color": "#61DAFB"
+    }
+  ]
+}

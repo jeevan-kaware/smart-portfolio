@@ -1,0 +1,38 @@
+{
+  "name": "Jeevan Kaware",
+  "title": "Java Backend Developer",
+  "tagline": "Building secure and scalable backend applications, REST APIs, and enterprise solutions using Java, Spring Boot, Spring Security, PostgreSQL, and modern backend technologies.",
+  "about": "Backend-focused software engineer with hands-on experience in Java, Spring Boot, Spring Security, PostgreSQL, and REST API development. I enjoy building secure and scalable backend applications while continuously improving my problem-solving, software engineering, and backend development skills.",
+  "location": "Paratwada, Amravati, Maharashtra, India",
+  "email": "jeevan.kaware.dev@gmail.com",
+  "phone": "+91 80873XXXXX",
+  "resumeUrl": "/resume/resume.pdf",
+  "avatarUrl": "",
+  "stats": [
+  {
+    "label": "Projects Completed",
+    "value": 5,
+    "suffix": "+"
+  },
+  {
+    "label": "REST APIs Built",
+    "value": 25,
+    "suffix": "+"
+  },
+  {
+    "label": "Technologies Learned",
+    "value": 15,
+    "suffix": "+"
+  },
+  {
+    "label": "GitHub Contributions",
+    "value": 100,
+    "suffix": "+"
+  }
+],
+  "socials": {
+    "github": "https://github.com/jeevan-kaware",
+    "linkedin": "https://linkedin.com/in/jeevankaware",
+    "email": "mailto:jeevan.kaware.dev@gmail.com"
+  }
+}

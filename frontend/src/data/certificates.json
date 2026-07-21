@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Java (Basic)",
+      "issuer": "HackerRank",
+      "date": "2025",
+      "image": "/assets/certificates/java-basic.png",
+      "url": "#",
+       "description": "Successfully cleared the HackerRank Java (Basic) Skill Certification. Demonstrated proficiency in Core Java, Object-Oriented Programming (OOP), Exception Handling, Basic Data Structures, and problem-solving using Java."
+
+    },
+    {
+      "id": 2,
+      "title": "SQL (Basic)",
+      "issuer": "HackerRank",
+      "date": "2025",
+      "image": "/assets/certificates/sql-basic.png",
+      "url": "#",
+      "description":"Successfully cleared the HackerRank SQL (Basic) Skill Certification. Demonstrated practical knowledge of SQL queries, joins, filtering, aggregation functions, grouping, and relational database fundamentals."
+    },
+    {
+      "id": 3,
+      "title": "GenAI Powered Data Analytics Job Simulation",
+      "issuer": "Tata (Forage)",
+      "date": "2025",
+      "image": "/assets/certificates/tata-genai.png",
+      "url": "#",
+      "description":"Successfully completed the GenAI Powered Data Analytics Job Simulation by Tata through Forage. Worked on AI-driven collections strategy, exploratory data analysis, predictive risk profiling, delinquency prediction, and business reporting."
+    },
+    {
+      "id": 4,
+      "title": "AI for Students: Build Your Own Generative AI Model",
+      "issuer": "NextWave",
+      "date": "2025",
+      "image": "/assets/certificates/nextwave-ai.png",
+      "url": "#",
+      "description":"Successfully completed the AI for Students: Build Your Own Generative AI Model program by NextWave. Learned Generative AI fundamentals, Prompt Engineering, and AI application development."
+    },
+    {
+      "id": 5,
+      "title": "National Level Hackathon Participation",
+      "issuer": "G. H. Raisoni University",
+      "date": "2026",
+      "image": "/assets/certificates/hackathon.png",
+      "url": "#",
+      "description":"Participated in the National Level Hackathon 2026 organized by G H Raisoni University. Developed 'AegisPay', an AI-powered predictive system for early detection and prevention of cyber financial crimes using real-time risk scoring."
+    },
+    {
+      "id": 6,
+      "title": "Internet of Things (IoT) Workshop using Arduino",
+      "issuer": "G. H. Raisoni University",
+      "date": "2025",
+      "image": "/assets/certificates/iot-workshop.png",
+      "url": "#",
+      "description":"Successfully attended a hands-on workshop on Internet of Things (IoT) using Arduino. Learned sensor interfacing, Arduino programming, embedded systems fundamentals, and smart hardware prototyping."
+    }
+  ]
+}

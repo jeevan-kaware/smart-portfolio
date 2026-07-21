@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "name": "Backend",
+      "skills": [
+        {
+          "name": "Java",
+          "icon": "FaJava"
+        },
+        {
+          "name": "Spring Boot",
+          "icon": "SiSpringboot"
+        },
+        {
+          "name": "Spring Security",
+          "icon": "SiSpring"
+        },
+        {
+          "name": "Spring Data JPA",
+          "icon": "SiSpring"
+        },
+        {
+          "name": "Hibernate",
+          "icon": "SiHibernate"
+        },
+        {
+          "name": "REST APIs",
+          "icon": "TbApi"
+        },
+        {
+          "name": "Spring AI",
+          "icon": "SiOpenai"
+        }
+      ]
+    },
+    {
+      "name": "Database",
+      "skills": [
+        {
+          "name": "PostgreSQL",
+          "icon": "SiPostgresql"
+        },
+        {
+          "name": "MySQL",
+          "icon": "SiMysql"
+        },
+        {
+          "name": "Neon PostgreSQL",
+          "icon": "SiPostgresql"
+        }
+      ]
+    },
+    {
+      "name": "Tools & Platform",
+      "skills": [
+        {
+          "name": "Git",
+          "icon": "SiGit"
+        },
+        {
+          "name": "GitHub",
+          "icon": "SiGithub"
+        },
+        {
+          "name": "Docker",
+          "icon": "SiDocker"
+        },
+        {
+          "name": "Maven",
+          "icon": "SiApachemaven"
+        },
+        {
+          "name": "Postman",
+          "icon": "SiPostman"
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "icon": "SiIntellijidea"
+        },
+        {
+          "name": "Railway",
+          "icon": "SiServerless"
+        },
+        {
+          "name": "Swagger / OpenAPI",
+          "icon": "SiSwagger"
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "skills": [
+        {
+          "name": "React",
+          "icon": "SiReact"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "SiTypescript"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "SiTailwindcss"
+        },
+        {
+          "name": "HTML5",
+          "icon": "SiHtml5"
+        },
+        {
+          "name": "CSS3",
+          "icon": "SiCss3"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "si-javascript"
+        }
+      ]
+    }
+  ]
+}
