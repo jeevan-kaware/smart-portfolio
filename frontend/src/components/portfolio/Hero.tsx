@@ -5,7 +5,7 @@ import { Github, Linkedin, Download, Mail, ArrowDown, Sparkles } from "lucide-re
 import { FaJava } from "react-icons/fa";
 import { SiSpringboot, SiPostgresql, SiDocker } from "react-icons/si";
 import profile from "@/data/profile.json";
-import profileImage from "@/assets/images/profile.png";
+import profileImage from "@/assets/images/profile6.png";
 const floatingIcons = [
   { Icon: FaJava, x: "8%", y: "20%", delay: 0 },
   { Icon: SiSpringboot, x: "88%", y: "28%", delay: 1 },
