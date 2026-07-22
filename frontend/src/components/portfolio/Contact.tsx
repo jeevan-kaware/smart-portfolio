@@ -4,6 +4,7 @@ import { z } from "zod";
 import { Mail, MapPin, Phone, Send, Github, Linkedin } from "lucide-react";
 import profile from "@/data/profile.json";
 import { SectionHeader } from "./SectionHeader";
+import emailjs from "@emailjs/browser";
 
 const schema = z.object({
   name: z.string().trim().min(1, "Name required").max(100),
@@ -17,51 +18,56 @@ export function Contact() {
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   async function onSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    const parsed = schema.safeParse(form);
-    if (!parsed.success) {
-      const errs: Record<string, string> = {};
-      parsed.error.issues.forEach((i) => { errs[i.path[0] as string] = i.message; });
-      setErrors(errs);
-      return;
-    }
-    setErrors({});
-    setStatus("sending");
-    try {
-  const response = await fetch(
-    `${import.meta.env.VITE_API_URL}/api/contact`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+  e.preventDefault();
+
+  const parsed = schema.safeParse(form);
+
+  if (!parsed.success) {
+    const errs: Record<string, string> = {};
+
+    parsed.error.issues.forEach((i) => {
+      errs[i.path[0] as string] = i.message;
+    });
+
+    setErrors(errs);
+    return;
+  }
+
+  setErrors({});
+  setStatus("sending");
+
+  try {
+
+    await emailjs.send(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      {
+        from_name: parsed.data.name,
+        from_email: parsed.data.email,
+        message: parsed.data.message,
       },
-      body: JSON.stringify(parsed.data),
-    }
-  );
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    );
 
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
+    setStatus("sent");
+
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
+
+    setTimeout(() => {
+      setStatus("idle");
+    }, 3500);
+
+  } catch (error) {
+
+    console.error("EmailJS Error:", error);
+
+    setStatus("error");
   }
-
-  const data = await response.json();
-  console.log(data);
-
-  setStatus("sent");
-  setForm({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  setTimeout(() => setStatus("idle"), 3500);
-
-} catch (err) {
-
-  console.error("Contact API Error:", err);
-
-  setStatus("error");
 }
-  }
 
   return (
     <section id="contact" className="relative py-24 md:py-32">
@@ -98,6 +104,19 @@ export function Contact() {
             viewport={{ once: true }}
             className="glass rounded-3xl p-8"
           >
+              {/* Success Message */}
+  {status === "sent" && (
+    <div className="mb-4 rounded-xl border border-green-500/30 bg-green-500/10 px-4 py-3 text-sm font-medium text-green-400">
+      ✅ Message sent successfully!
+    </div>
+  )}
+
+  {/* Error Message */}
+  {status === "error" && (
+    <div className="mb-4 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm font-medium text-red-400">
+      ❌ Something went wrong. Please try again.
+    </div>
+  )}
             <div className="space-y-4">
               <div>
                 <label className="mb-1 block text-xs font-medium uppercase tracking-wider text-muted-foreground">Name</label>
