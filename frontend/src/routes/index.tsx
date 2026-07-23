@@ -19,7 +19,7 @@ import { ScrollToTop } from "@/components/portfolio/ScrollToTop";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jeevan Kumar — Java Backend Developer" },
+      { title: "Jeevan Kaware — Java Backend Developer" },
       { name: "description", content: "Premium portfolio of Jeevan Kumar, a Java Backend Developer specializing in Spring Boot, microservices, and cloud-native systems." },
       { property: "og:title", content: "Jeevan Kumar — Java Backend Developer" },
       { property: "og:description", content: "Portfolio showcasing enterprise-grade backend systems, APIs and open source work." },
