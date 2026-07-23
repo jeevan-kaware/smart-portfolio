@@ -357,6 +357,83 @@ Docker Features
 - Production Ready Deployment
 
 ---
+# 📸 Screenshots
+
+The following screenshots demonstrate the complete workflow and user interface of the Smart Portfolio application.
+
+---
+
+## 🏠 Hero Section
+
+![Hero Section](Screenshots/01-hero-section.png)
+
+---
+
+## 👨‍💻 About Me
+
+![About](Screenshots/02-about.png)
+
+---
+
+## 🛠 Skills
+
+![Skills](Screenshots/03-skills.png)
+
+---
+
+## 📂 Projects
+
+![Projects](Screenshots/04-projects.png)
+
+---
+
+## 🤖 AI Portfolio Assistant
+
+![AI Chat](Screenshots/05-ai-chat.png)
+
+---
+
+## 📜 Certificates
+
+![Certificates](Screenshots/06-certificates.png)
+
+---
+
+## 🎓 Education
+
+![Education](Screenshots/07-education.png)
+
+---
+
+## 💻 GitHub Section
+
+![GitHub](Screenshots/08-github.png)
+
+---
+
+## 📧 Contact Section
+
+![Contact](Screenshots/09-contact.png)
+
+---
+
+## 📱 Responsive Mobile View
+
+![Mobile View](Screenshots/10-mobile-view.png)
+
+---
+
+## 📄 Resume Download
+
+![Resume](Screenshots/11-resume-download.png)
+
+---
+
+## ⚡ AI Response Example
+
+![AI Response](Screenshots/12-ai-response.png)
+
+---
 
 # 🚀 Future Improvements
 
@@ -372,3 +449,74 @@ Docker Features
 - CI/CD Pipeline
 
 ---
+# 📚 Learning Outcomes
+
+This project helped me gain practical experience with
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- ShadCN UI
+- Responsive UI Design
+- Component-Based Architecture
+- React Router
+- REST API Integration
+- Spring Boot Backend Integration
+- Spring AI (Gemini)
+- AI Prompt Design
+- EmailJS Integration
+- JSON Data Management
+- Docker-based Backend Deployment
+- Vercel Deployment
+- Render Deployment
+- Modern UI/UX Design
+- Performance Optimization
+- Clean Folder Structure
+- Production-ready Frontend Development
+
+---
+
+# 👨‍💻 Author
+
+## Jeevan Kaware
+
+Java Backend Developer
+
+### GitHub
+
+https://github.com/jeevan-kaware
+
+### Project Repository
+
+https://github.com/jeevan-kaware/smart-portfolio
+
+### Backend Repository
+
+https://github.com/jeevan-kaware/smart-portfolio-backend
+
+### LinkedIn
+
+https://www.linkedin.com/in/jeevan-kaware-080643355
+
+### Portfolio
+
+https://ai-model-comparison-gamma.vercel.app
+
+---
+
+# ⭐ If you like this project
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+Your support motivates me to continue building high-quality Java Backend and Full Stack projects.
+
+---
+
+<div align="center">
+
+# 🚀 Built with React, TypeScript, Tailwind CSS, Spring Boot, Spring AI (Gemini) and ❤️
+
+### Thank you for visiting this repository.
+
+</div>
