@@ -47,6 +47,23 @@ The portfolio also includes a contact section, downloadable resume, animated UI,
 The UI foundation was created using modern AI-assisted development tools and was extensively customized, integrated with backend services, and enhanced with additional features, business logic, and personal content to create a production-ready portfolio.
 
 ---
+# 🌍 Live Demo
+
+## 🚀 Portfolio Website
+
+https://smart-portfolio-kappa-eight.vercel.app/
+
+---
+
+## ⚙️ Backend API
+
+https://smart-portfolio-backend-ama5.onrender.com
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/jeevan-kaware/smart-portfolio
 
 # ✨ Features
 
@@ -155,61 +172,6 @@ AI Portfolio Assistant
 
 ---
 
-# ✨ Frontend Features
-
-## 👨‍💻 Portfolio Sections
-
-- Hero Section
-- About Me
-- Skills
-- Projects
-- Education
-- Certifications
-- GitHub Contributions
-- Contact Section
-- Resume Download
-- Footer
-
----
-
-## 🤖 AI Portfolio Assistant
-
-- AI Chat Assistant
-- Portfolio Based Responses
-- Spring AI (Gemini)
-- Secure Backend Communication
-- Short and Context-Aware Responses
-- Portfolio Knowledge Based Chat
-- Health Check API Integration
-
----
-
-## 📧 Contact Features
-
-- Contact Form
-- EmailJS Integration
-- Form Validation
-- Success & Error Messages
-- Responsive Contact Section
-
----
-
-## 🎨 UI Features
-
-- Fully Responsive Design
-- Modern Glassmorphism UI
-- Animated Background
-- Smooth Scrolling
-- Custom Cursor
-- Count Up Statistics
-- Scroll Progress Indicator
-- Scroll To Top Button
-- Interactive Project Cards
-- Certificate Modal
-- Loading Screen
-
----
-
 # 📂 Project Structure
 
 ```text
@@ -247,11 +209,11 @@ Available backend services include:
 - Contact API
 - Health Check API
 
-Backend Repository
+## 📂 Backend Repository
 
 https://github.com/jeevan-kaware/smart-portfolio-backend
 
-Backend Live API
+## 🌐 Backend Live API
 
 https://smart-portfolio-backend-ama5.onrender.com
 
