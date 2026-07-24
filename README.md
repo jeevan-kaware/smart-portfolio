@@ -405,12 +405,6 @@ The following screenshots demonstrate the complete workflow and user interface o
 
 ---
 
-## 💻 GitHub Section
-
-![GitHub](Screenshots/08-github.png)
-
----
-
 ## 📧 Contact Section
 
 ![Contact](Screenshots/09-contact.png)
