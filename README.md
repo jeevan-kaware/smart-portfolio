@@ -501,8 +501,8 @@ https://www.linkedin.com/in/jeevan-kaware-080643355
 
 ### Portfolio
 
-https://ai-model-comparison-gamma.vercel.app
-
+https://smart-portfolio-kappa-eight.vercel.app/
+ 
 ---
 
 # ⭐ If you like this project
