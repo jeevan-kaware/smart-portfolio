@@ -253,7 +253,7 @@ https://github.com/jeevan-kaware/smart-portfolio-backend
 
 Backend Live API
 
-https://ai-model-comparison-sym8.onrender.com
+https://smart-portfolio-backend-ama5.onrender.com
 
 ---
 
